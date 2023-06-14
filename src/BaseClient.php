@@ -21,7 +21,7 @@ class BaseClient
 {
     protected const API_TOKEN_URI = 'https://login.bol.com/token';
     protected const API_ENDPOINT = 'https://api.bol.com/';
-    protected const API_CONTENT_TYPE_JSON = 'application/vnd.retailer.v10+json';
+    protected const API_CONTENT_TYPE_JSON = 'application/vnd.retailer.v9+json';
 
     /**
      * @var bool Whether request will be sent to the demo endpoint.
